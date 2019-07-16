@@ -1,0 +1,133 @@
+//Crestron Toolbox Template Script File.
+
+[Header]
+// Global settings go here.
+// Add key to individual sections to override, otherwise these values will be used.
+DebugStrings=on
+AbortOnError=on
+ConcurrentSectionLimit=40
+GlobalReportFile=|$scriptpath|logs\scripts\|$scriptfilename|_Log_|$date|_|$time|.log
+GlobalReportFileIncludeAll=on
+
+[Variables]
+//Predefined: $time $date $scriptfilename $scriptpath $scriptsection $scriptconnect $scriptindex $LF
+PanelFile_Classroom="HSIB_Classroom_DGE200.vtz"
+PanelFile_BioComm="HSIB_BioComm_DGE200.vtz"
+PanelFile_Forum="HSIB_Forum_DGE200.vtz"
+IP_Subnet=10.156.27
+
+[S.00 BioComm]
+Connect=auto |IP_Subnet|.92
+DisplayListSend |$scriptpath||PanelFile_BioComm|
+
+
+[S.01 305]
+Connect=auto |IP_Subnet|.24
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.02 306]
+Connect=auto |IP_Subnet|.29
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.03 320]
+Connect=auto |IP_Subnet|.35
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.04 321]
+Connect=auto |IP_Subnet|.40
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.05 322]
+Connect=auto |IP_Subnet|.45
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.06 323]
+Connect=auto |IP_Subnet|.50
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.07 442]
+Connect=auto |IP_Subnet|.55
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.08 443]
+Connect=auto |IP_Subnet|.60
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.09 444]
+Connect=auto |IP_Subnet|.65
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.10 445]
+Connect=auto |IP_Subnet|.70
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.11 531]
+Connect=auto |IP_Subnet|.75
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.12 532]
+Connect=auto |IP_Subnet|.77
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.13 567]
+Connect=auto |IP_Subnet|.91
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.14 640]
+Connect=auto |IP_Subnet|.115
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.15 642]
+Connect=auto |IP_Subnet|.117
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.16 727 TeleVis]
+Connect=auto |IP_Subnet|.134
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.17 731 SimDeck CR]
+Connect=auto |IP_Subnet|.137
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.18 855]
+Connect=auto |IP_Subnet|.147
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.19 880]
+Connect=auto |IP_Subnet|.158
+DisplayListSend |$scriptpath||PanelFile_Classroom|
+
+[S.23 222 Forum]
+Connect=auto |IP_Subnet|.11
+DisplayListSend |$scriptpath||PanelFile_Forum|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
