@@ -11,9 +11,9 @@ GlobalReportFileIncludeAll=on
 
 [Variables]
 //Predefined: $time $date $scriptfilename $scriptpath $scriptsection $scriptconnect $scriptindex $LF
-PanelFile_Classroom="HSIB_Classroom_DGE200.vtz"
-PanelFile_BioComm="HSIB_BioComm_DGE200.vtz"
-PanelFile_Forum="HSIB_Forum_DGE200.vtz"
+PanelFile_Classroom=HSIB_Classroom_DGE200.vtz
+PanelFile_BioComm=HSIB_BioComm_DGE200.vtz
+PanelFile_Forum=HSIB_Forum_DGE200.vtz
 IP_Subnet=10.156.27
 
 [S.00 BioComm]
