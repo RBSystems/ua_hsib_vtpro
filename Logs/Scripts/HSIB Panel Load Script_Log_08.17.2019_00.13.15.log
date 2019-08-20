@@ -1,0 +1,18 @@
+********************************************************************************************
+File: C:\Users\bcampagnola\Documents\L3AV\Jobs\UofA HSIB\ua_hsib_vtpro\HSIB Panel Load Script.txt
+Section: S.00 BioComm
+Connection: auto 10.156.27.92
+Started: Saturday, August 17, 2019 12:12:55 AM
+Elapsed Time: 20 secs
+Result: Success
+Command for Line  1[Success, 20 secs]: DisplayListSend |$scriptpath||PanelFile_BioComm|
+Results for Line  1: "DM-DGE-200-C [v1.3781.00029 (March 07 2019), #874242DD] @E-00107fab45c2"
+--------------------------------------------------------------------------------------------
+File: C:\Users\bcampagnola\Documents\L3AV\Jobs\UofA HSIB\ua_hsib_vtpro\HSIB Panel Load Script.txt
+Section: S.00 BioComm
+Connection: auto 10.156.27.92
+Started: Saturday, August 17, 2019 12:53:40 AM
+Elapsed Time: 23 secs
+Result: Success
+Command for Line  1[Success, 23 secs]: DisplayListSend |$scriptpath||PanelFile_BioComm|
+Results for Line  1: "DM-DGE-200-C [v1.3781.00029 (March 07 2019), #874242DD] @E-00107fab45c2"

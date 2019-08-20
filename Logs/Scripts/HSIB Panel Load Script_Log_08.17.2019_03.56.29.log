@@ -1,0 +1,23 @@
+********************************************************************************************
+File: C:\Users\bcampagnola\Documents\L3AV\Jobs\UofA HSIB\ua_hsib_vtpro\HSIB Panel Load Script.txt
+Section: S.17 731 SimDeck CR
+Connection: auto 10.156.27.137
+Started: Saturday, August 17, 2019 03:56:05 AM
+Elapsed Time: 24 secs
+Result: Success
+Command for Line  1[Failure, 24 secs]: DisplayListSend |$scriptpath||PanelFile_Classroom|
+Error   for Line  1: 	The socket connection was closed with socket error 10053. 
+	There was an error in the underlying SSH library, code Error in CComChannel_SSH::SocketReceive. Err: -43.. 
+	There was an error in the underlying SSH library, code Error in CComChannel_SSH::SocketReceive. Err: -43.. 
+	There was an error in the underlying SSH library, code Error in CComChannel_SSH::SocketReceive. Err: -43.. 
+	There was an error in the underlying SSH library, code Error in CComChannel_SSH::SocketReceive. Err: -43.. 
+	SFTP file transfer failed. 
+--------------------------------------------------------------------------------------------
+File: C:\Users\bcampagnola\Documents\L3AV\Jobs\UofA HSIB\ua_hsib_vtpro\HSIB Panel Load Script.txt
+Section: S.16 727 TeleVis
+Connection: auto 10.156.27.134
+Started: Saturday, August 17, 2019 03:56:54 AM
+Elapsed Time: 20 secs
+Result: Success
+Command for Line  1[Failure, 20 secs]: DisplayListSend |$scriptpath||PanelFile_Classroom|
+Error   for Line  1: An unknown error has occurred.
