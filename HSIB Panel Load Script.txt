@@ -82,7 +82,7 @@ Connect=auto |IP_Subnet|.117
 DisplayListSend |$scriptpath||PanelFile_Classroom|
 
 [S.16 727 TeleVis]
-Connect=auto |IP_Subnet|.134
+Connect=auto 10.156.32.134
 DisplayListSend |$scriptpath||PanelFile_Classroom|
 
 [S.17 731 SimDeck CR]
