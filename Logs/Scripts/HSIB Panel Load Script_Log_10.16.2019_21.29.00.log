@@ -1,0 +1,9 @@
+********************************************************************************************
+File: C:\Users\bcampagnola\Documents\L3AV\Jobs\UofA HSIB\ua_hsib_vtpro\HSIB Panel Load Script.txt
+Section: S.13 567
+Connection: auto 10.156.27.91
+Started: Wednesday, October 16, 2019 09:28:40 PM
+Elapsed Time: 20 secs
+Result: Success
+Command for Line  1[Success, 20 secs]: DisplayListSend |$scriptpath||PanelFile_Classroom|
+Results for Line  1: "DM-DGE-200-C [v1.3781.00029 (March 07 2019), #86E232F9] @E-00107fa8b433"

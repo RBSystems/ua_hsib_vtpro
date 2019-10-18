@@ -1,0 +1,9 @@
+********************************************************************************************
+File: C:\Users\bcampagnola\Documents\L3AV\Jobs\UofA HSIB\ua_hsib_vtpro\HSIB Panel Load Script.txt
+Section: S.17 731 SimDeck CR
+Connection: auto 10.156.27.137
+Started: Friday, October 18, 2019 12:31:26 AM
+Elapsed Time: 26 secs
+Result: Success
+Command for Line  1[Success, 26 secs]: DisplayListSend |$scriptpath||PanelFile_Classroom|
+Results for Line  1: "DM-DGE-200-C [v1.3384.00059 (May 30 2018), #8A122703] @E-00107fc245d9"
